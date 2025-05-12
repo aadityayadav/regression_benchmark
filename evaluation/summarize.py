@@ -10,6 +10,8 @@ def generate_summary(results):
             "Test R²": res["r2_test"],
             "Test RMSE": res["rmse_test"],
             "Test MAE": res["mae_test"],
+            "Test MAPE": res["mape_test"],
+            "Normalized RMSE": res["normalized_rmse_test"],
             "Best Hyperparameters": res["best_params"],
             "Error" if not res["success"] else "": res.get("error", "")
         })
