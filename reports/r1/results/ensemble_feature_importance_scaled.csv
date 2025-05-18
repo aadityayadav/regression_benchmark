@@ -1,0 +1,43 @@
+Feature,Mean Importance,Model
+Scaled_Voltage window (V),9.317575529444866,Stacking_RidgeMeta
+Scaled_Specific surface area (m2/g),42.608498603969956,Stacking_RidgeMeta
+Scaled_Pore size (nm),10.108438577753072,Stacking_RidgeMeta
+Scaled_Id/Ig,15.82948138235528,Stacking_RidgeMeta
+Scaled_N (at. %),23.62109176803217,Stacking_RidgeMeta
+Scaled_O (at. %),9.137879091254089,Stacking_RidgeMeta
+Scaled_Voltage window (V),8.477519273394151,Stacking_LassoMeta
+Scaled_Specific surface area (m2/g),42.401929667792594,Stacking_LassoMeta
+Scaled_Pore size (nm),9.45644995430297,Stacking_LassoMeta
+Scaled_Id/Ig,14.775405242275212,Stacking_LassoMeta
+Scaled_N (at. %),23.540380471484802,Stacking_LassoMeta
+Scaled_O (at. %),10.267488340492871,Stacking_LassoMeta
+Scaled_Voltage window (V),9.273505649070776,Stacking_BayesianRidgeMeta
+Scaled_Specific surface area (m2/g),43.006819406455165,Stacking_BayesianRidgeMeta
+Scaled_Pore size (nm),11.026674289417205,Stacking_BayesianRidgeMeta
+Scaled_Id/Ig,15.520194193310571,Stacking_BayesianRidgeMeta
+Scaled_N (at. %),19.455948271538414,Stacking_BayesianRidgeMeta
+Scaled_O (at. %),11.049371915914076,Stacking_BayesianRidgeMeta
+Scaled_Voltage window (V),6.023015380155555,Stacking_MLPMeta
+Scaled_Specific surface area (m2/g),38.34788153217057,Stacking_MLPMeta
+Scaled_Pore size (nm),12.46386790884978,Stacking_MLPMeta
+Scaled_Id/Ig,11.972332505025895,Stacking_MLPMeta
+Scaled_N (at. %),20.585664315914105,Stacking_MLPMeta
+Scaled_O (at. %),2.708674095738496,Stacking_MLPMeta
+Scaled_Voltage window (V),9.122468162355789,Stacking_ElasticNetMeta
+Scaled_Specific surface area (m2/g),42.489262601393776,Stacking_ElasticNetMeta
+Scaled_Pore size (nm),10.002906053544825,Stacking_ElasticNetMeta
+Scaled_Id/Ig,15.407334535257808,Stacking_ElasticNetMeta
+Scaled_N (at. %),22.529063635411067,Stacking_ElasticNetMeta
+Scaled_O (at. %),10.441178902825452,Stacking_ElasticNetMeta
+Scaled_Voltage window (V),5.679000811541784,Stacking_DiverseBaseModels
+Scaled_Specific surface area (m2/g),38.94689830760912,Stacking_DiverseBaseModels
+Scaled_Pore size (nm),11.896003658568903,Stacking_DiverseBaseModels
+Scaled_Id/Ig,20.861023894176324,Stacking_DiverseBaseModels
+Scaled_N (at. %),23.13219147824889,Stacking_DiverseBaseModels
+Scaled_O (at. %),8.70288636648468,Stacking_DiverseBaseModels
+Scaled_Voltage window (V),6.336817104168196,Stacking_CatBoostMeta
+Scaled_Specific surface area (m2/g),39.14117454239851,Stacking_CatBoostMeta
+Scaled_Pore size (nm),10.78057680248111,Stacking_CatBoostMeta
+Scaled_Id/Ig,17.549895689336598,Stacking_CatBoostMeta
+Scaled_N (at. %),25.17898637847072,Stacking_CatBoostMeta
+Scaled_O (at. %),8.194480409367518,Stacking_CatBoostMeta

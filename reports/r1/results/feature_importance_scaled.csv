@@ -1,0 +1,79 @@
+Feature,Mean Importance,Model
+Scaled_Voltage window (V),6.153085391084361,Ridge
+Scaled_Specific surface area (m2/g),44.20480569110209,Ridge
+Scaled_Pore size (nm),13.886464431295801,Ridge
+Scaled_Id/Ig,12.92032848854183,Ridge
+Scaled_N (at. %),14.088344614012852,Ridge
+Scaled_O (at. %),9.298384011865299,Ridge
+Scaled_Voltage window (V),6.418270014560498,Lasso
+Scaled_Specific surface area (m2/g),47.833347569957205,Lasso
+Scaled_Pore size (nm),14.829562742174561,Lasso
+Scaled_Id/Ig,13.774212073328652,Lasso
+Scaled_N (at. %),14.913144820046316,Lasso
+Scaled_O (at. %),8.300352963114458,Lasso
+Scaled_Voltage window (V),6.47701054040049,BayesianRidge
+Scaled_Specific surface area (m2/g),46.21094857093772,BayesianRidge
+Scaled_Pore size (nm),14.527017701701505,BayesianRidge
+Scaled_Id/Ig,13.61175746116226,BayesianRidge
+Scaled_N (at. %),14.65860576039725,BayesianRidge
+Scaled_O (at. %),8.995614897326233,BayesianRidge
+Scaled_Voltage window (V),9.787109216269863,KNN
+Scaled_Specific surface area (m2/g),36.69479058531748,KNN
+Scaled_Pore size (nm),11.774334444444445,KNN
+Scaled_Id/Ig,17.27557501488095,KNN
+Scaled_N (at. %),15.662027435515853,KNN
+Scaled_O (at. %),12.325344246031737,KNN
+Scaled_Voltage window (V),1.636785944875945e-14,DecisionTree
+Scaled_Specific surface area (m2/g),51.64695519953999,DecisionTree
+Scaled_Pore size (nm),20.294124590773784,DecisionTree
+Scaled_Id/Ig,8.43769498715119e-15,DecisionTree
+Scaled_N (at. %),23.951031872294298,DecisionTree
+Scaled_O (at. %),0.0,DecisionTree
+Scaled_Voltage window (V),4.673066218082952,RandomForest
+Scaled_Specific surface area (m2/g),37.1213025925995,RandomForest
+Scaled_Pore size (nm),17.026074397011627,RandomForest
+Scaled_Id/Ig,14.18611511092323,RandomForest
+Scaled_N (at. %),21.424552721497054,RandomForest
+Scaled_O (at. %),3.7477707454048286,RandomForest
+Scaled_Voltage window (V),7.849666457921091,ExtraTrees
+Scaled_Specific surface area (m2/g),40.849557545884466,ExtraTrees
+Scaled_Pore size (nm),11.539891532292682,ExtraTrees
+Scaled_Id/Ig,11.623956034513029,ExtraTrees
+Scaled_N (at. %),20.17494514242875,ExtraTrees
+Scaled_O (at. %),9.9027375656292,ExtraTrees
+Scaled_Voltage window (V),8.985211404808206,GradientBoosting
+Scaled_Specific surface area (m2/g),47.08183965707987,GradientBoosting
+Scaled_Pore size (nm),16.582438740052815,GradientBoosting
+Scaled_Id/Ig,19.04504338964038,GradientBoosting
+Scaled_N (at. %),29.646983782363694,GradientBoosting
+Scaled_O (at. %),6.810953267965389,GradientBoosting
+Scaled_Voltage window (V),3.1668396713799924,AdaBoost
+Scaled_Specific surface area (m2/g),30.016594195483066,AdaBoost
+Scaled_Pore size (nm),14.761389176834486,AdaBoost
+Scaled_Id/Ig,13.210638539484131,AdaBoost
+Scaled_N (at. %),20.753995029759064,AdaBoost
+Scaled_O (at. %),1.7410418869461817,AdaBoost
+Scaled_Voltage window (V),2.057250703243325,HistGradientBoosting
+Scaled_Specific surface area (m2/g),39.134977852615236,HistGradientBoosting
+Scaled_Pore size (nm),22.987105727921058,HistGradientBoosting
+Scaled_Id/Ig,22.380752860198605,HistGradientBoosting
+Scaled_N (at. %),27.97499571275852,HistGradientBoosting
+Scaled_O (at. %),7.461005745628033,HistGradientBoosting
+Scaled_Voltage window (V),5.660454892642616,SVR
+Scaled_Specific surface area (m2/g),38.409045542877145,SVR
+Scaled_Pore size (nm),14.663865091719043,SVR
+Scaled_Id/Ig,17.28329757859728,SVR
+Scaled_N (at. %),20.177485110221113,SVR
+Scaled_O (at. %),8.607902709119212,SVR
+Scaled_Voltage window (V),9.339255784203393,MLP
+Scaled_Specific surface area (m2/g),49.89163592011381,MLP
+Scaled_Pore size (nm),16.190751391629387,MLP
+Scaled_Id/Ig,24.42545330233667,MLP
+Scaled_N (at. %),16.938583304986768,MLP
+Scaled_O (at. %),10.262420767025171,MLP
+Scaled_Voltage window (V),4.819035018336213,XGBoost
+Scaled_Specific surface area (m2/g),36.25579646968843,XGBoost
+Scaled_Pore size (nm),13.784734933518221,XGBoost
+Scaled_Id/Ig,12.158990293809348,XGBoost
+Scaled_N (at. %),24.41149725470089,XGBoost
+Scaled_O (at. %),3.028864745650974,XGBoost

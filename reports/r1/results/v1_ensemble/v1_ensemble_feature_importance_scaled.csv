@@ -1,0 +1,25 @@
+Feature,Mean Importance,Model
+Scaled_Voltage window (V),8.528813340946117,Stacking_RidgeMeta
+Scaled_Specific surface area (m2/g),42.90729826216223,Stacking_RidgeMeta
+Scaled_Pore size (nm),11.56725584683321,Stacking_RidgeMeta
+Scaled_Id/Ig,18.654684182099242,Stacking_RidgeMeta
+Scaled_N (at. %),21.049152064000776,Stacking_RidgeMeta
+Scaled_O (at. %),5.121665216483665,Stacking_RidgeMeta
+Scaled_Voltage window (V),8.621578148695015,Stacking_LassoMeta
+Scaled_Specific surface area (m2/g),41.75108676362301,Stacking_LassoMeta
+Scaled_Pore size (nm),11.44498823786069,Stacking_LassoMeta
+Scaled_Id/Ig,17.23119011526415,Stacking_LassoMeta
+Scaled_N (at. %),20.601947125199604,Stacking_LassoMeta
+Scaled_O (at. %),5.290013084568451,Stacking_LassoMeta
+Scaled_Voltage window (V),7.063808888955275,Stacking_BayesianRidgeMeta
+Scaled_Specific surface area (m2/g),42.58691863351389,Stacking_BayesianRidgeMeta
+Scaled_Pore size (nm),13.064416380294332,Stacking_BayesianRidgeMeta
+Scaled_Id/Ig,13.77269496683432,Stacking_BayesianRidgeMeta
+Scaled_N (at. %),20.9045120359922,Stacking_BayesianRidgeMeta
+Scaled_O (at. %),6.036659259721292,Stacking_BayesianRidgeMeta
+Scaled_Voltage window (V),7.637169003533004,Stacking_MLPMeta
+Scaled_Specific surface area (m2/g),44.67280717592138,Stacking_MLPMeta
+Scaled_Pore size (nm),14.3551542815734,Stacking_MLPMeta
+Scaled_Id/Ig,16.014398813215436,Stacking_MLPMeta
+Scaled_N (at. %),24.822617388524623,Stacking_MLPMeta
+Scaled_O (at. %),4.505980811970178,Stacking_MLPMeta
