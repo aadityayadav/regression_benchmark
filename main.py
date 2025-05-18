@@ -8,19 +8,19 @@ from utils.io import save_model
 
 # 1. Raw test
 # Update the dataset type
-dataset_type = "raw"
+# dataset_type = "raw"
 
-# Load dataset
-data_dir = os.path.join(os.getcwd(), "data")
-train_dataset = pd.read_csv(os.path.join(data_dir, "train_raw.csv"))
-test_dataset = pd.read_csv(os.path.join(data_dir, "test_raw.csv"))
+# # Load dataset
+# data_dir = os.path.join(os.getcwd(), "data")
+# train_dataset = pd.read_csv(os.path.join(data_dir, "train_raw.csv"))
+# test_dataset = pd.read_csv(os.path.join(data_dir, "test_raw.csv"))
 
-X = train_dataset.drop(columns=["Capacitance (F/g)"])
-y = train_dataset["Capacitance (F/g)"]
-X_test = test_dataset.drop(columns=["Capacitance (F/g)"])
-y_test = test_dataset["Capacitance (F/g)"]
+# X = train_dataset.drop(columns=["Capacitance (F/g)"])
+# y = train_dataset["Capacitance (F/g)"]
+# X_test = test_dataset.drop(columns=["Capacitance (F/g)"])
+# y_test = test_dataset["Capacitance (F/g)"]
 
-# 2. Normalized test
+# # 2. Normalized test
 # # Update the dataset type
 # dataset_type = "scaled"
 
@@ -34,19 +34,19 @@ y_test = test_dataset["Capacitance (F/g)"]
 # X_test = test_dataset.drop(columns=["Capacitance (F/g)"])
 # y_test = test_dataset["Capacitance (F/g)"]
 
-# # 3. Normalized test with outliers removed
-# # Update the dataset type
-# dataset_type = "scaled_removed_outliers"
+# 3. Normalized test with outliers removed
+# Update the dataset type
+dataset_type = "scaled_removed_outliers"
 
-# # Load dataset
-# data_dir = os.path.join(os.getcwd(), "data")
-# train_dataset = pd.read_csv(os.path.join(data_dir, "train_scaled_removed_outliers.csv"))
-# test_dataset = pd.read_csv(os.path.join(data_dir, "test_scaled_removed_outliers.csv"))
+# Load dataset
+data_dir = os.path.join(os.getcwd(), "data")
+train_dataset = pd.read_csv(os.path.join(data_dir, "train_scaled_removed_outliers.csv"))
+test_dataset = pd.read_csv(os.path.join(data_dir, "test_scaled_removed_outliers.csv"))
 
-# X = train_dataset.drop(columns=["Capacitance (F/g)"])
-# y = train_dataset["Capacitance (F/g)"]
-# X_test = test_dataset.drop(columns=["Capacitance (F/g)"])
-# y_test = test_dataset["Capacitance (F/g)"]
+X = train_dataset.drop(columns=["Capacitance (F/g)"])
+y = train_dataset["Capacitance (F/g)"]
+X_test = test_dataset.drop(columns=["Capacitance (F/g)"])
+y_test = test_dataset["Capacitance (F/g)"]
 
 # Model Registry Experiments
 # results = train_all_models(X, y, X_test, y_test, model_registry)

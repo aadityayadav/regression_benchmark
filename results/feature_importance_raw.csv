@@ -31,46 +31,46 @@ Pore size (nm),0.011391921768710126,KNN
 Id/Ig,0.0009704142371266504,KNN
 N (at. %),0.05227914540816549,KNN
 O (at. %),0.2948551020408155,KNN
-Materials-1,1.021405182655144e-14,DecisionTree
-Materials-2,1.0800883996710452e-14,DecisionTree
-Voltage window (V),9.57963866962278e-15,DecisionTree
-Specific surface area (m2/g),51.646955199539995,DecisionTree
-Pore size (nm),20.294124590773773,DecisionTree
-Id/Ig,5.170467228968586e-15,DecisionTree
-N (at. %),23.95103187229429,DecisionTree
-O (at. %),0.0,DecisionTree
-Materials-1,1.5886618413784679,RandomForest
-Materials-2,0.32463542157028974,RandomForest
-Voltage window (V),4.105298093486536,RandomForest
-Specific surface area (m2/g),33.505349679386946,RandomForest
-Pore size (nm),15.300367082485963,RandomForest
-Id/Ig,11.47421220979527,RandomForest
-N (at. %),21.004211359015727,RandomForest
-O (at. %),3.8335281947396393,RandomForest
-Materials-1,6.414455264477058,ExtraTrees
-Materials-2,1.0107417002976238,ExtraTrees
-Voltage window (V),7.691944563116495,ExtraTrees
-Specific surface area (m2/g),40.70315801834611,ExtraTrees
-Pore size (nm),12.259292401232985,ExtraTrees
-Id/Ig,11.503261550042525,ExtraTrees
-N (at. %),22.33167409640731,ExtraTrees
-O (at. %),7.8846162587159885,ExtraTrees
-Materials-1,1.5252841200402671,GradientBoosting
-Materials-2,0.05819252289865251,GradientBoosting
-Voltage window (V),5.640012627595406,GradientBoosting
-Specific surface area (m2/g),38.43217092825721,GradientBoosting
-Pore size (nm),14.495038100793034,GradientBoosting
-Id/Ig,13.022592540314793,GradientBoosting
-N (at. %),25.602296140466933,GradientBoosting
-O (at. %),1.6714797864186477,GradientBoosting
-Materials-1,0.7017629311951669,AdaBoost
-Materials-2,0.12481012204056698,AdaBoost
-Voltage window (V),2.026478475212203,AdaBoost
-Specific surface area (m2/g),28.57874461789993,AdaBoost
-Pore size (nm),15.33326191578592,AdaBoost
-Id/Ig,10.255407876817262,AdaBoost
-N (at. %),22.171958437652624,AdaBoost
-O (at. %),2.718973384498257,AdaBoost
+Materials-1,1.554312234475219e-14,DecisionTree
+Materials-2,8.227545628918571e-15,DecisionTree
+Voltage window (V),2.132641865079358,DecisionTree
+Specific surface area (m2/g),53.1869136284722,DecisionTree
+Pore size (nm),23.452560499929138,DecisionTree
+Id/Ig,4.331379712301575,DecisionTree
+N (at. %),31.498378208262498,DecisionTree
+O (at. %),11.739581141935913,DecisionTree
+Materials-1,1.8389225273774035,RandomForest
+Materials-2,0.195783032312927,RandomForest
+Voltage window (V),4.516384461075693,RandomForest
+Specific surface area (m2/g),34.706240179032044,RandomForest
+Pore size (nm),18.168580811911845,RandomForest
+Id/Ig,13.762497264503626,RandomForest
+N (at. %),21.57253717099099,RandomForest
+O (at. %),4.3286390068204295,RandomForest
+Materials-1,6.1076020012383045,ExtraTrees
+Materials-2,0.9924027349383494,ExtraTrees
+Voltage window (V),7.893816233822277,ExtraTrees
+Specific surface area (m2/g),40.52191484509456,ExtraTrees
+Pore size (nm),11.809453839221943,ExtraTrees
+Id/Ig,9.855676454389867,ExtraTrees
+N (at. %),21.92377146578443,ExtraTrees
+O (at. %),9.029261131048033,ExtraTrees
+Materials-1,1.5046162176000517,GradientBoosting
+Materials-2,1.3298885802117054e-14,GradientBoosting
+Voltage window (V),5.635434404195984,GradientBoosting
+Specific surface area (m2/g),38.48381083966712,GradientBoosting
+Pore size (nm),14.459918963515378,GradientBoosting
+Id/Ig,13.01647818833772,GradientBoosting
+N (at. %),25.656546707949467,GradientBoosting
+O (at. %),1.682799077261191,GradientBoosting
+Materials-1,0.6169444865039371,AdaBoost
+Materials-2,0.05474289053655015,AdaBoost
+Voltage window (V),0.5261972482103202,AdaBoost
+Specific surface area (m2/g),30.512613032210034,AdaBoost
+Pore size (nm),16.45638333456647,AdaBoost
+Id/Ig,9.966946326937347,AdaBoost
+N (at. %),21.00683793051126,AdaBoost
+O (at. %),2.2757342892572874,AdaBoost
 Materials-1,1.5269193383771673,HistGradientBoosting
 Materials-2,1.003165804393445e-14,HistGradientBoosting
 Voltage window (V),1.9352103292579628,HistGradientBoosting
@@ -87,19 +87,19 @@ Pore size (nm),3.111854102754139,SVR
 Id/Ig,0.791442376658356,SVR
 N (at. %),7.94822667548281,SVR
 O (at. %),12.697931355016992,SVR
-Materials-1,2.3748923078751503,MLP
-Materials-2,0.07904836249029971,MLP
-Voltage window (V),0.09705138436706072,MLP
-Specific surface area (m2/g),106.67729583806162,MLP
-Pore size (nm),0.885482747593559,MLP
-Id/Ig,0.20029551161964246,MLP
-N (at. %),1.1786542776523354,MLP
-O (at. %),2.185886750340461,MLP
-Materials-1,2.516963911316843,XGBoost
-Materials-2,0.054370892514985725,XGBoost
-Voltage window (V),5.311775499555521,XGBoost
-Specific surface area (m2/g),37.90017440718292,XGBoost
-Pore size (nm),14.425588271635727,XGBoost
-Id/Ig,13.944412248066495,XGBoost
-N (at. %),27.341043194161784,XGBoost
-O (at. %),3.3416172812017444,XGBoost
+Materials-1,13.270104211747975,MLP
+Materials-2,0.37775982618209153,MLP
+Voltage window (V),0.6623106254502547,MLP
+Specific surface area (m2/g),64.59499286058633,MLP
+Pore size (nm),4.428963554276189,MLP
+Id/Ig,0.8612097103501116,MLP
+N (at. %),9.03656285132549,MLP
+O (at. %),14.483690661220871,MLP
+Materials-1,2.1996939006881786,XGBoost
+Materials-2,0.02627706702225846,XGBoost
+Voltage window (V),4.717807536220065,XGBoost
+Specific surface area (m2/g),36.2037261264608,XGBoost
+Pore size (nm),13.68749412196996,XGBoost
+Id/Ig,12.052660581596857,XGBoost
+N (at. %),25.475119941869547,XGBoost
+O (at. %),3.162204377743662,XGBoost
