@@ -127,6 +127,75 @@ model_registry = {
     # }
 }
 
+v1_ensemble_model_registry = {
+    "Stacking_RidgeMeta": {
+        "model": StackingRegressor(
+            estimators=[
+                ("ridge", Ridge(alpha=10.0)),
+                ("extratrees", ExtraTreesRegressor(n_estimators=100, max_depth=None)),
+                ("gboost", GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=3))
+            ],
+            final_estimator=Ridge(alpha=10.0),
+            cv=5,
+            passthrough=True,
+            n_jobs=-1
+        ),
+        "params": {
+            "final_estimator__alpha": [0.1, 1.0, 10.0, 100.0]
+        }
+    },
+    "Stacking_LassoMeta": {
+        "model": StackingRegressor(
+            estimators=[
+                ("ridge", Ridge(alpha=10.0)),
+                ("extratrees", ExtraTreesRegressor(n_estimators=100, max_depth=None)),
+                ("gboost", GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=3))
+            ],
+            final_estimator=Lasso(alpha=1.0),
+            cv=5,
+            passthrough=True,
+            n_jobs=-1
+        ),
+        "params": {
+            "final_estimator__alpha": [0.01, 0.1, 1.0, 10.0]
+        }
+    },
+    "Stacking_BayesianRidgeMeta": {
+        "model": StackingRegressor(
+            estimators=[
+                ("ridge", Ridge(alpha=10.0)),
+                ("extratrees", ExtraTreesRegressor(n_estimators=100, max_depth=None)),
+                ("gboost", GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=3))
+            ],
+            final_estimator=BayesianRidge(alpha_1=1e-6, lambda_1=1e-6),
+            cv=5,
+            passthrough=True,
+            n_jobs=-1
+        ),
+        "params": {
+            "final_estimator__alpha_1": [1e-6, 1e-5],
+            "final_estimator__lambda_1": [1e-6, 1e-5]
+        }
+    },
+    "Stacking_MLPMeta": {
+        "model": StackingRegressor(
+            estimators=[
+                ("ridge", Ridge(alpha=10.0)),
+                ("extratrees", ExtraTreesRegressor(n_estimators=100, max_depth=None)),
+                ("gboost", GradientBoostingRegressor(n_estimators=100, learning_rate=0.1, max_depth=3))
+            ],
+            final_estimator=MLPRegressor(max_iter=2000, early_stopping=True, validation_fraction=0.1),
+            cv=5,
+            passthrough=True,
+            n_jobs=-1
+        ),
+        "params": {
+            "final_estimator__hidden_layer_sizes": [(50,), (100,)],
+            "final_estimator__alpha": [0.0001, 0.001]
+        }
+    }
+}
+
 # Shared GBBoost hyperparameters
 gboost_param_grid = {
     "gboost__gradientboostingregressor__n_estimators": [20, 30, 40, 50, 60, 80],
